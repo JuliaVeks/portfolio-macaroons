@@ -1,0 +1,563 @@
+@media screen and (max-width: 1440px) {
+    body {
+        max-width: 1440px;
+    }
+
+    .header-container {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .navigation {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        justify-content: space-between;
+    }
+
+    .introduction {
+        margin: 0;
+    }
+
+    .first-main-image {
+        margin-top: 70px;
+    }
+
+    .description-container {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .description-title {
+        max-width: 500px;
+    }
+
+    .second-main-image {
+        margin: 60px 0 0 0;
+        width: 400px;
+    }
+
+    .second-main-image img {
+        width: 100%;
+    }
+
+    .description-products {
+        margin-top: 44px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .first-main-image {
+        margin: -35px 0 -200px 400px;
+        bottom: 200px;
+    }
+
+    .order-container {
+        padding: 100px 0;
+    }
+
+    .order-macaroons {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+
+    .form-container {
+        justify-content: space-around;
+    }
+
+    .third-main-image img {
+        margin: 120px 0 0 30px;
+    }
+
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .first-main-image {
+        margin: -35px 0 -200px 400px;
+    }
+
+    .description-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .description-title {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 648px;
+    }
+
+    .description-title p {
+        max-width: 648px;
+        font-size: 17px;
+    }
+
+    .second-main-image {
+        margin-top: 40px;
+    }
+
+    .description-products {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 88px;
+    }
+
+    .description-product {
+        text-align: center;
+    }
+
+    .description-product span {
+        left: 94px;
+    }
+
+    .order-macaroons {
+        grid-gap: 136px 29px;
+    }
+
+    .form-container {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    .third-main-image {
+        order: 2;
+    }
+
+    .form-order {
+        order: 1;
+    }
+
+    .third-main-image {
+        top: 275px;
+        right: 35px;
+    }
+
+    .third-main-image-macaroons {
+        width: 352px;
+        height: 434px;
+    }
+
+    .third-main-image img {
+        margin: 0;
+    }
+
+    .third-main-image-big-strawberry {
+        right: -10px;
+        margin-top: 215px;
+    }
+
+    .form-order h2 {
+        width: 406px;
+    }
+
+    .third-main-image-small-strawberry {
+        right: -225px;
+        margin-top: 137px;
+    }
+
+    @keyframes small-strawberry {
+        0% {
+            top: 0;
+        }
+        50% {
+            top: 4%;
+        }
+        100% {
+            top: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-container-contacts {
+        display: none;
+    }
+
+    .first-main-image {
+        margin: -35px 0 -200px 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .first-main-image {
+        margin: -35px 0 -382px 350px;
+        width: 350px;
+    }
+
+    .first-main-image img {
+        width: 350px;
+    }
+
+    .pulse {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .container {
+        max-width: 600px;
+        padding: 43px 19px 43px 19px;
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .navigation-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .navigation-menu-item {
+        margin: 20px 0;
+    }
+
+    .navigation-menu-item a {
+        text-decoration: none;
+        font-size: 16px;
+        color: rgb(164, 107, 0);
+        line-height: 1;
+    }
+
+    .open {
+        display: flex;
+        align-items: center;
+        z-index: 99999;
+    }
+
+    .menu-open {
+        display: block;
+    }
+
+    .menu-close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .introduction {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .introduction h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+
+    .introduction p {
+        font-size: 18px;
+        margin: 0 0 40px 115px;
+
+    }
+
+    .first-main-image {
+        margin: 0 0 120px 0;
+        width: 300px;
+        height: 245px;
+        right: -100px;
+        bottom: -38px;
+    }
+
+    .first-main-image img {
+        width: 350px;
+    }
+
+    .pulse {
+        width: 115%;
+        height: 140%;
+    }
+
+}
+
+@media screen and (max-width: 635px){
+    .description-product span {
+        left: 91px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .description-product span {
+        left: 87px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .description-product span {
+        left: 84px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 38px 18px 29px 18px;
+    }
+
+    .header-container {
+        padding: 0;
+    }
+
+    .header-container-contacts {
+        display: none;
+    }
+
+    .container {
+        max-width: 350px;
+        padding: 43px 19px 43px 19px;
+        display: block;
+    }
+
+    .introduction {
+        text-align: center;
+    }
+
+    .introduction h1 {
+        font-size: 31px;
+        margin-bottom: 40px;
+    }
+
+    .introduction p {
+        font-size: 16px;
+        margin: 0 0 40px 0;
+    }
+
+    .first-main-image {
+        margin: 0;
+        width: 250px;
+        height: 245px;
+        right: -38px;
+        bottom: -38px;
+    }
+
+    .first-main-image img {
+        width: 250px;
+    }
+
+    .pulse {
+        width: 90%;
+        height: 100%;
+    }
+
+    .description {
+        padding: 100px 0 97px 0;
+    }
+
+    .description-container {
+        max-width: 350px;
+        padding: 0;
+    }
+
+    .description-title h2 {
+        font-size: 30px;
+        margin-bottom: 39px;
+    }
+
+    .description-title p {
+        font-size: 16px;
+    }
+
+    .second-main-image {
+        width: 302px;
+        margin-top: 61px;
+    }
+
+    .description-products {
+        margin-top: 61px;
+        grid-row-gap: 41px;
+    }
+
+    .description-product span {
+        left: 50px;
+    }
+
+    .description-product h3 {
+        font-size: 15px;
+        margin-bottom: 21px;
+    }
+
+    .description-product p {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .order-container {
+        padding: 100px 56px;
+    }
+
+    .order-container h2 {
+        font-size: 30px;
+        margin-bottom: 122px;
+    }
+
+    .order-macaroons {
+        grid-template-columns: 1fr;
+        grid-gap: 142px;
+    }
+
+    .order-macaroon img {
+        left: 70px;
+    }
+
+    .form-container {
+        padding: 100px 0 77px 0;
+        max-width: 350px;
+        display: block;
+    }
+
+    .third-main-image-macaroons {
+        display: none;
+    }
+
+    .form-order h2 {
+        font-size: 30px;
+        margin-bottom: 43px;
+    }
+
+    .form-order p {
+        font-size: 16px;
+    }
+
+    .form-order h3 {
+        font-size: 18px;
+    }
+
+    .form-order input {
+        width: 344px;
+    }
+
+    .button-form {
+        width: 344px;
+    }
+
+    .third-main-image-small-strawberry {
+        display: none;
+    }
+
+    .third-main-image-big-strawberry {
+        margin-top: 115px;
+        right: 0;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    .footer-container-adaptive {
+        display: flow;
+    }
+
+    .footer-logo-rights {
+        text-align: center;
+    }
+
+    .footer-logo-rights span {
+        display: block;
+        margin-top: 39px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .footer-instagram {
+        margin: 40px 0 42px 0;
+    }
+
+    .footer-instagram span {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .footer-contacts {
+       justify-content: center;
+        font-size: 12px;
+        color: rgb(227, 172, 180);
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .order-container {
+        padding: 100px 10px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .container {
+        padding: 20px 0;
+    }
+
+    .introduction h1 {
+        font-size: 30px;
+    }
+
+    .description {
+        padding: 50px 0;
+    }
+
+    .description-product span {
+        left: 44px;
+    }
+
+    .order-container {
+        padding: 50px 0;
+    }
+
+    .order-container h2 {
+        font-size: 28px;
+    }
+
+    .order-macaroon img {
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 351px) {
+    .form-container {
+        padding: 50px 1px;
+    }
+
+    .form-order input {
+        width: 317px;
+    }
+
+    .button-form {
+        width: 317px;
+    }
+}
